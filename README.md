@@ -93,7 +93,7 @@ Although GoReleaser has [a built-in support for Artifactory](https://goreleaser.
 
 `> jfrog rt upload "dist/*.tar.gz" binary-releases-local --build-name=my-build --build-number=1`
 
-5. Collect environment variabkes and add them to the build info
+5. Collect environment variables and add them to the build info
 
 `> jfrog rt build-collect-env my-build 1`
 
